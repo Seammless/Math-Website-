@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" width="100%" height="100%">
+    <!-- AXES (2px thick, low-opacity grounding system meeting at 60, 110) -->
+    <!-- Y-Axis (with top arrowhead shifted UP to Y=8) -->
+    <line x1="60" y1="8" x2="60" y2="110" stroke="#f5f5f5" stroke-width="2" stroke-linecap="round" opacity="0.15" />
+    <path d="M 57 12 L 60 8 L 63 12" stroke="#54c5ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.7" />
+    
+    <!-- X-Axis (with right arrowhead) -->
+    <line x1="60" y1="110" x2="190" y2="110" stroke="#f5f5f5" stroke-width="2" stroke-linecap="round" opacity="0.15" />
+    <path d="M 186 107 L 190 110 L 186 113" stroke="#54c5ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.7" />
+
+    <!-- Origin Joint Dot (Vibrant Cyan-Blue #54c5ff Highlight at 70% Opacity) -->
+    <circle cx="60" cy="110" r="3" fill="#54c5ff" opacity="0.7" />
+
+    <!-- HORIZONTAL COMPARISON BARS -->
+    <!-- Bar 1: Base value (Soft-White at 40% opacity, flat bottom, very slightly rounded top) -->
+    <path d="M 60 32 L 60 24 A 2 2 0 0 1 62 22 L 133 22 A 2 2 0 0 1 135 24 L 135 32 Z" fill="#f5f5f5" opacity="0.4" />
+
+    <!-- Bar 2: Dominant Peak Value (Highlight Yellow #ffd84d, flat bottom, very slightly rounded top) -->
+    <path d="M 60 54 L 60 46 A 2 2 0 0 1 62 44 L 178 44 A 2 2 0 0 1 180 46 L 180 54 Z" fill="#ffd84d" />
+
+    <!-- Bar 3: Base value (Soft-White at 40% opacity, flat bottom, very slightly rounded top) -->
+    <path d="M 60 76 L 60 68 A 2 2 0 0 1 62 66 L 153 66 A 2 2 0 0 1 155 68 L 155 76 Z" fill="#f5f5f5" opacity="0.4" />
+
+    <!-- Bar 4: Base value (Soft-White at 40% opacity, flat bottom, very slightly rounded top) -->
+    <path d="M 60 98 L 60 90 A 2 2 0 0 1 62 88 L 168 88 A 2 2 0 0 1 170 90 L 170 98 Z" fill="#f5f5f5" opacity="0.4" />
+</svg>

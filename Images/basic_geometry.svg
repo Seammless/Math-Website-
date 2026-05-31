@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" width="100%" height="100%">
+    <!-- 1. Faint dashed background compass circle (radius 34, perfectly centered at 120, 60 - Brighter opacity at 0.55) -->
+    <circle cx="120" cy="60" r="34" stroke="#444446" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.55" fill="none" />
+
+    <!-- 2. Interactive Geometry Elements Group -->
+    <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+        
+        <!-- Dual Rays in Signature Accent Yellow (#ffd84d) with 1.5px thin strokes -->
+        
+        <!-- Ray 1: Horizontal Ray starting exactly on the left circle border (86, 60) and extending right to (164, 60) -->
+        <g stroke="#ffd84d" stroke-width="1.5">
+            <line x1="86" y1="60" x2="164" y2="60" />
+            <!-- Horizontal Ray arrowhead pointing right -->
+            <polyline points="158 55 164 60 158 65" />
+        </g>
+        <!-- Horizontal Ray starting dot (aligned perfectly on the circle border) -->
+        <circle cx="86" cy="60" r="2.5" fill="#ffd84d" stroke="none" />
+        
+        <!-- Ray 2: Diagonal Ray starting exactly on the bottom-left circle border (96, 84) and extending up-right to (151, 29) -->
+        <g stroke="#ffd84d" stroke-width="1.5">
+            <line x1="96" y1="84" x2="151" y2="29" />
+            <!-- Diagonal Ray arrowhead pointing up-right -->
+            <polyline points="144 29 151 29 151 36" />
+        </g>
+        <!-- Diagonal Ray starting dot (aligned perfectly on the circle border) -->
+        <circle cx="96" cy="84" r="2.5" fill="#ffd84d" stroke="none" />
+
+        <!-- 3. Central Angle Indicator in Cyan-Blue (#54c5ff) -->
+        <!-- Highlighted Angle Arc at the central intersection (120, 60) curving up -->
+        <path d="M 132 60 A 12 12 0 0 0 128.5 51.5" stroke="#54c5ff" stroke-width="1.5" />
+        <path d="M 132 60 A 12 12 0 0 0 128.5 51.5" stroke="#54c5ff" stroke-width="3.5" opacity="0.2" />
+
+    </g>
+</svg>
